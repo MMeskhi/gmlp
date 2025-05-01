@@ -5,7 +5,6 @@ import Heading from "./heading";
 import { useSectionInView } from "@/lib/hooks";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { FaGithubSquare } from "react-icons/fa";
 
 export default function Projects() {
   const { ref } = useSectionInView("Projects", 0.5);
